@@ -6,7 +6,6 @@ public class BaseBallTeam {
     private int lose;
     private int draw;
 
-    //コンストラクト
     public BaseBallTeam(String name,int win,int lose,int draw) {
         this.name=name;
         this.win=win;
@@ -19,7 +18,7 @@ public class BaseBallTeam {
     }
 
     public void report() {
-        System.out.println(name+"の2022年の成績は"+win+"勝"+lose+"敗"+draw+"分、勝率は0."+getRate()+"です。");
+        System.out.println(name+"の2022年の成績は"+win+"勝"+lose+"敗"+draw+"分、勝率は"+getRate()+"です。");
     }
     
     public String getName() {

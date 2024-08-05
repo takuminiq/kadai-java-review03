@@ -10,7 +10,8 @@ public class Review03 {
                 new BaseBallTeam("読売ジャイアンツ", 68, 72, 3),
                 new BaseBallTeam("広島東洋カープ", 66, 74, 3),
                 new BaseBallTeam("中日ドラゴンズ", 66, 75, 2)
-            };
+        };
+        
         for(BaseBallTeam team:teams) {
            team.report(); 
         }
